@@ -45,6 +45,9 @@ def commaInt number
 	new_string
 end
 
+# 2.5 Driver code
+
+puts commaInt(123456789) == "123,456,789"
 
 # 3. Refactored Solution
 
