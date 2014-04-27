@@ -14,21 +14,29 @@ def my_hash_finding_method(source, thing_to_find)
 end
 
 # Identify and describe the ruby method you implemented. 
-# 
+# is_a is the most important method here. It allows you to test the datatype of an element 
 #
 #
 
 # Person 2
-def my_array_modification_method(source, thing_to_modify)
-  # Your code here!
+def my_array_modification_method(source, thing_to_modify)  
+  clean = []
+  source.each do |current|
+  	if current.is_a? Integer
+  		clean.push (current + thing_to_modify)
+  	else
+  		clean.push current
+  	end
+  end
+   clean
 end
 
 def my_hash_modification_method(source, thing_to_modify)
-  # Your code here!
+  source.each {|value, number| source[value] = number + thing_to_modify}
 end
 
 # Identify and describe the ruby method you implemented. 
-# 
+# each is the main method here, it allows you to specify the two parts of a hash and modify one (we are modifying value here)
 #
 #
 
@@ -78,8 +86,8 @@ p my_array_deletion_method(i_want_pets, "a") == ["I", 4, "pets", "but", "I", "on
 p my_hash_deletion_method(my_family_pets_ages, "George") == {"Evi" => 8, "Hoobie" => 5, "Bogart" => 6, "Poly" => 6, "Annabelle" => 2, "Ditto" => 5}
 
 # Reflect!
-# 
-# 
-# 
-# 
+# Up to now I've used Ruby Docs A LOT. It's been a huge lifesaver. For me, this excercise was a test to see if 
+# I could search Ruby Docs to solve more complex problems. I'm pleased with my ability to do that (though, admittedly
+# I used Stack Overflow as well. It seems like every program now a days has at least something picked up from
+# Stack Overflow.
 # 
