@@ -3,43 +3,43 @@ Define the following commands and describe how they work/what they do.
 
 
 #### add
-<!-- Your defnition here -->
+Includes a file in a Git "snapshot," the file is recognized by Git.
 
 #### branch
-<!-- Your defnition here -->
+Creates a new branch (timeline of commits)
 
 #### checkout
-<!-- Your defnition here -->
+Allows you to access a Git branch you are not currently in
 
 #### clone
-<!-- Your defnition here -->
+Let's you copy an existing project on GitHub
 
 #### commit
-<!-- Your defnition here -->
+Adds your changes to the Git "snapshot"
 
 #### fetch
-<!-- Your defnition here -->
+Downloads new branches and data from a remote repository
 
 #### log
-<!-- Your defnition here -->
+Shows all of the previous commit messages
 
 #### merge
-<!-- Your defnition here -->
+merges an isolated branch with the main branch
 
 #### pull
-<!-- Your defnition here -->
+fetches a repositroy and merges it with the current branch
 
 #### push
-<!-- Your defnition here -->
+Adds commits to the main repo
 
 #### reset
-<!-- Your defnition here -->
+Undoes changes and commits
 
 #### rm
-<!-- Your defnition here -->
+Removes files from the staging area
 
 #### status
-
+Shows the status of your files in your working directory compared to the staging area
 
 ## Release 4: Git Workflow
 
@@ -48,3 +48,8 @@ Define the following commands and describe how they work/what they do.
 - Commit locally
 
 ## Release 5: Reflection
+
+I really like working with Git. A few years ago I worked for a company that made us use
+Mercurial, and that was a pain in the butt compared to Git. I've been using Git for a 
+little while (I'm embarassed to admit how many times I've used the reset command) and
+I look forward to continuing its use.
